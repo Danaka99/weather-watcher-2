@@ -1,0 +1,21 @@
+{
+  "name": "weather-watcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch --env-file=.env app"
+  },
+  "keywords": [],
+  "author": "Danaka Lakdineepa",
+  "license": "ISC",
+  "description": "A Node.js API that stores user emails and locations, fetches weather data, and sends hourly reports via email. Utilizes MongoDB, OpenWeatherMap API, and Nodemailer. Designed for easy deployment on Vercel or AWS.",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "colors": "^1.4.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.14"
+  }
+}
